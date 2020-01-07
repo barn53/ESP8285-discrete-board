@@ -268,7 +268,7 @@ F 3 "https://datasheet.lcsc.com/szlcsc/1910111742_MDD-Microdiode-Electronics-S80
 	1    0    0    1   
 $EndComp
 Text HLabel 8300 3400 2    50   Output Italic 0
-Reset
+~Reset
 Text HLabel 7850 4750 2    50   Output Italic 0
 Flash
 Text HLabel 4250 5000 2    50   BiDi Italic 0

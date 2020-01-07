@@ -18,6 +18,8 @@ $Comp
 L barn53-kicad:ESP_8285 U3
 U 1 1 5DE7E9DF
 P 2450 4000
+AR Path="/5DE7E9DF" Ref="U3"  Part="1" 
+AR Path="/5DFE4925/5DE7E9DF" Ref="U3"  Part="1" 
 F 0 "U3" H 3475 4265 50  0000 C CNN
 F 1 "ESP_8285" H 3475 4174 50  0000 C CNN
 F 2 "Package_DFN_QFN:QFN-32-1EP_5x5mm_P0.5mm_EP3.6x3.6mm_ThermalVias" H 3900 1800 50  0001 C CNN
@@ -191,7 +193,7 @@ Wire Wire Line
 Text HLabel 5050 4600 2    39   Input Italic 0
 Enable
 Text HLabel 5050 4700 2    39   Input Italic 0
-Reset
+~Reset
 NoConn ~ 2450 4300
 Text Label 5000 4000 2    50   ~ 0
 LNA
@@ -204,7 +206,7 @@ ADC
 Text Label 5000 4600 2    39   Italic 0
 Enable
 Text Label 5000 4700 2    39   Italic 0
-Reset
+~Reset
 Text Label 5000 4900 2    39   Italic 0
 GPIO0
 Text Label 5000 5000 2    39   Italic 0
@@ -494,7 +496,7 @@ Wire Wire Line
 Text Label 7650 2000 1    39   Italic 0
 Enable
 Text Label 7950 2000 1    39   Italic 0
-Reset
+~Reset
 Text Label 8250 2000 1    39   Italic 0
 GPIO0
 Text Label 8550 2000 1    39   Italic 0
@@ -535,7 +537,7 @@ Wire Wire Line
 Wire Wire Line
 	8600 2900 8100 2900
 Text Label 7300 2900 0    39   Italic 0
-Reset
+~Reset
 Text Label 8600 2900 2    39   Italic 0
 GPIO16
 Wire Wire Line
